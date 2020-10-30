@@ -17,6 +17,8 @@ html {
   line-height: 1.4;
 }
 
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -86,6 +88,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   #flex-container {
+    display: flex;
+    flex-direction: row;
+  }
 
 /* ==========================================================================
    Helper classes
