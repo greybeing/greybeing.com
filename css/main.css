@@ -111,32 +111,39 @@
 
       .intro {
         background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
+        background-size: 500px;
         Color:white;
-        
-      
-        
-      }
+        height: 500px;
+        margin: 0px;
+        padding: 20px;
+        }
 
       #my-image {
         width: 400px;
         height: 400px;
-        border-radius: 20px;
+        border-radius: 100px;
         position: absolute;
         right: 40px;
         top: 120px;
-
       }
 
-      .blocks-container {
+      .block-container {
         display: flex;
         flex-direction: row;
         }
 
       #blocks {
         list-style-type: none;
+        text-decoration: none;
         margin: 50px;
-        padding: 0px;
+        padding: 10px;
+        border-style: outset;
+        border-width: thick;
+        width: 300px;
+        color: #b3d4fc;
       }
+
+      
   
   /* ==========================================================================
      Helper classes
@@ -150,6 +157,7 @@
   [hidden] {
     display: none !important;
   }
+
   
   /*
    * Hide only visually, but have it available for screen readers:
