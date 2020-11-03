@@ -86,72 +86,44 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
+
      .flex-container {
-      display: flex;
-      flex-direction: row;
-      position: absolute;
-      top: 20px;
-      right: 200px;
-      width: 300px;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      }
-
-      #navbar {
-      display: block;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      }
-
-      #navbar:hover {
-        background-color: #111;
-      }
-
-      .intro {
-        background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
-        background-size: 500px;
-        Color:white;
-        height: 500px;
-        margin: 0px;
-        padding: 20px;
-        }
-
-      #intro_1 {
-        font-style: oblique;
-          font-size: 50px;
-        }
-
-      #my-image {
-        width: 400px;
-        height: 400px;
-        border-radius: 100px;
-        position: absolute;
-        right: 40px;
-        top: 120px;
-      }
-
-      .block-container {
         display: flex;
         flex-direction: row;
-        margin-top: 50px;
-        }
-
-      #blocks {
-        list-style-type: none;
-        text-decoration: none;
-        margin: 50px;
-        
-        padding: 10px;
-        border-style: outset;
-        border-width: thick;
+        position: absolute;
+        top: 20px;
+        right: 200px;
         width: 300px;
-        color: #b3d4fc;
-      }
-
-      
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
   
+        #navbar {
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+  
+        #navbar:hover {
+          background-color: #111;
+        }
+  
+        .intro {
+          background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
+          background-size: 500px;
+          Color:white;
+          height: 250px;
+          margin: 0px;
+          padding: 20px;
+          }
+
+          #intro_1 {
+            font-style: oblique;
+            font-size: 50px;
+          }
+    
   /* ==========================================================================
      Helper classes
      ========================================================================== */
@@ -164,7 +136,6 @@
   [hidden] {
     display: none !important;
   }
-
   
   /*
    * Hide only visually, but have it available for screen readers:
