@@ -86,7 +86,7 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-     .flex-container {
+     .flex_container {
       display: flex;
       flex-direction: row;
       position: absolute;
@@ -123,7 +123,7 @@
           font-size: 50px;
         }
 
-      #my-image {
+      #my_image {
         width: 400px;
         height: 400px;
         border-radius: 100px;
@@ -132,24 +132,23 @@
         top: 120px;
       }
 
-      .block-container {
+      .block_container {
         display: flex;
         flex-direction: row;
         margin-top: 50px;
-        }
-
-      #blocks {
-        list-style-type: none;
-        text-decoration: none;
-        margin: 50px;
-        
-        padding: 10px;
-        border-style: outset;
-        border-width: thick;
-        width: 300px;
-        color: #b3d4fc;
       }
 
+      #blocks {
+       text-decoration: none;
+       margin: 50px;
+       padding: 10px;
+       border-style: outset;
+       border-width: thick;
+       width: 300px;
+       color: #b3d4fc;
+       }
+
+      
       
   
   /* ==========================================================================
