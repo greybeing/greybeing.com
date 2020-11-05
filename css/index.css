@@ -86,69 +86,76 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
-     .flex_container {
-      display: flex;
-      flex-direction: row;
-      position: absolute;
-      top: 20px;
-      right: 200px;
-      width: 300px;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      }
 
-      #navbar {
-      display: block;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      }
+.navbar_container {
+  display: flex;
+}
 
-      #navbar:hover {
-        background-color: #111;
-      }
+.header_container {
+  display: flex;
+  flex-direction: row;
+  /* position: absolute; */
+  justify-content: space-between;
+  align-items: center;
+  top: 20px;
+  right: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
 
-      .intro {
-        background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
-        background-size: 500px;
-        Color:white;
-        height: 500px;
-        margin: 0px;
-        padding: 20px;
-        }
 
-      #intro_1 {
-        font-style: oblique;
-          font-size: 50px;
-        }
+#navbar {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-      #my_image {
-        width: 400px;
-        height: 400px;
-        border-radius: 100px;
-        position: absolute;
-        right: 40px;
-        top: 120px;
-      }
+#navbar:visited {
+  background-color: #111;
+}
 
-      .block_container {
-        display: flex;
-        flex-direction: row;
-        margin-top: 50px;
-      }
+.intro {
+  background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
+  background-size: 500px;
+  Color:white;
+  height: 500px;
+  margin: 0px;
+  padding: 20px;
+  }
 
-      #blocks {
-       text-decoration: none;
-       margin: 50px;
-       padding: 10px;
-       border-style: outset;
-       border-width: thick;
-       width: 300px;
-       color: #b3d4fc;
-       }
+#intro_1 {
+  font-style: oblique;
+    font-size: 50px;
+  }
 
-      
+#my_image {
+  width: 400px;
+  height: 400px;
+  border-radius: 100px;
+  position: absolute;
+  right: 40px;
+  top: 120px;
+}
+
+.block_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+#blocks {
+  text-decoration: none;
+  margin: 50px;
+  padding: 10px;
+  border-style: outset;
+  border-width: thick;
+  width: 300px;
+  color: #b3d4fc;
+  }
+
+
       
   
   /* ==========================================================================
