@@ -86,15 +86,20 @@
   /* ==========================================================================
      Author's custom styles
      ========================================================================== */
+      
+     .navbar_container {
+        display: flex;
+      }
 
-     .flex-container {
+     .header_container {
         display: flex;
         flex-direction: row;
-        position: absolute;
+        /* position: absolute; */
+        justify-content: space-between;
+        align-items: center;
         top: 20px;
         right: 200px;
-        width: 300px;
-        list-style-type: none;
+        width: 100%;
         margin: 0;
         padding: 0;
         }
