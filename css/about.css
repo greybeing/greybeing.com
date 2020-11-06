@@ -125,20 +125,20 @@
           }
 
           #intro_1 {
-            font-style: oblique;
-            font-size: 80px;
-            margin-left: 150px;
-          }
+             font-style: oblique;
+             font-size: 80px;
+             margin-left: 150px;
+              }
 
-          #intro_2 {
-           margin-left: 200px;
-          }
+              #intro_2 {
+              margin-left: 200px;
+              }
 
-          #intro_3 {
-            color: #b3d4fc;
-            text-decoration: none;
-            margin: 10px;
-         }
+              #intro_3 {
+                color: #b3d4fc;
+                text-decoration: none;
+                margin: 10px;
+            }
 
          #my_image2 {
             width: 450px;
@@ -166,7 +166,7 @@
              font-size: 50px;
          }
 
-         #f_c2b, #f_c2c {
+         #f_c2b {
              font-size: 20px;
          }
  
