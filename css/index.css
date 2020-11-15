@@ -112,7 +112,7 @@
       text-decoration: none;
       }
 
-      #navbar:hover {
+      #navbar:visited {
         background-color: #111;
       }
 
