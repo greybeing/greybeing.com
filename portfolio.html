@@ -65,100 +65,15 @@
 
     <div class="port_1">
         <h1 id="port_intro">How we can help you?</h1>
-        <!-- <ul id="port_cont" class="content-menu">
+         <ul id="port_cont" class="content-menu">
             <li><a id="port" href="portfolio.html?content=all">All</a></li>
             <li><a id="port" href="portfolio.html?content=web">Web Design</a></li>
             <li><a id="port" href="portfolio.html?content=cloud">Cloud Native Websites/Apps</a></li>
             <li><a id="port" href="portfolio.html?content=devops">DevOps</a></li>
             <li><a id="port" href="portfolio.html?content=consultancy">Consultancy</a></li>
-        </ul> -->
+        </ul> 
 
-        <ul id="port_cont" class="content-menu">
-            <li><div id="port" class="content-menu__all" onclick="displayContent('all')">All</div></li>
-            <li><div id="port" class="content-menu__web" onclick="displayContent('web')">Web Design</div></li>
-            <li><div id="port" class="content-menu__cloud">Cloud Native Websites/Apps</div></li>
-            <li><div id="port" class="content-menu__devops">DevOps</div></li>
-            <li><div id="port" class="content-menu__consultancy">Consultancy</div></li>
-        </ul>
-       
-    </div>
+      
+        </div>
 
-    <div id="content-wrapper">
-        <div id="all-content" class="content show-content" style="background-color: red">all</div>
-        <div id="web-content" class="content" style="background-color: blue">web design</div>
-        <div id="devops-content" class="content" style="background-color: green">DevOps</div>
-    </div>
- <script src="js/portfolio.js"></script>
-</body>
-
-<script>
-    const CONTENT_WRAPPER_SELECTOR = 'content-wrapper';
-    const CONTENT_MENU_SELECTOR = 'content-menu';
-    const ALL_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__all`;
-    const WEB_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__web`;
-    const CLOUD_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__cloud`;
-    const DEVOPS_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__devops`;
-    const CONSULTANCY_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__consultancy`;
-    const SHOW_SELECTOR = 'show-content';
-    const menuContentTitles = {
-        [ALL_MENU_SELECTOR]: 'all',
-        [WEB_MENU_SELECTOR]: 'web',
-        [CLOUD_MENU_SELECTOR]: 'cloud',
-        [DEVOPS_MENU_SELECTOR]: 'devops',
-        [CONSULTANCY_MENU_SELECTOR]: 'consultancy',
-    };
-
-    const displayContent = (contentTitle) => {
-        const contentWrapperEle = document.querySelector(`#${CONTENT_WRAPPER_SELECTOR}`);
-
-        if (contentWrapperEle) {
-            Object.values(menuContentTitles).forEach((title) => {
-                const CONTENT_SELECTOR = `${title}-content`;
-                const content = contentWrapperEle.querySelector(`#${CONTENT_SELECTOR}`);
-
-                if (!content || (title === contentTitle && content.classList.contains(SHOW_SELECTOR))) return;
-                
-                if (title === contentTitle) {
-                    content.classList.add(SHOW_SELECTOR);
-                } else {
-                    content.classList.remove(SHOW_SELECTOR);
-                }
-            });
-        }
-    }
-
-    const initEventListeners = () => {
-        const contentMenu = document.querySelector(`.${CONTENT_MENU_SELECTOR}`);
-
-        if (!contentMenu) {
-            console.log('Element Not found: ', CONTENT_MENU_SELECTOR);
-            return;
-        }
-
-        const menuSelectorList = [
-            ALL_MENU_SELECTOR, WEB_MENU_SELECTOR,
-            CLOUD_MENU_SELECTOR, DEVOPS_MENU_SELECTOR,
-            CONSULTANCY_MENU_SELECTOR,
-        ];
-
-        menuSelectorList.forEach((selector) => {
-            const menuEle = contentMenu.querySelector(`.${selector}`);
-
-            if (!menuEle) {
-                console.log('Element Not found: ', CONTENT_MENU_SELECTOR);
-                return; 
-            }
-
-            const contentTitle = menuContentTitles[selector] || 'all';
-
-            menuEle.addEventListener('click', () => displayContent(contentTitle));
-        });
-
-        console.log('Event Listener added')
-    }
-
-
-    /* window.addEventListener('load', initEventListeners); */
-</script>
-
-</html>
+    
