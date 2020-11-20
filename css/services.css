@@ -87,77 +87,77 @@
      Author's custom styles
      ========================================================================== */
       
-     .navbar_container {
-        display: flex;
+.navbar_container {
+  display: flex;
+}
+
+.header_container {
+  display: flex;
+  flex-direction: row;
+  /* position: absolute; */
+  justify-content: space-between;
+  align-items: center;
+  top: 20px;
+  right: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
+
+  #navbar {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  #navbar:visited {
+    background-color: #111;
+  }
+
+
+  
+
+  .intro {
+    background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
+    background-size: 500px;
+    Color:white;
+    height: 250px;
+    
+    padding: 20px;
+    }
+
+    #intro_1 {
+      font-style: oblique;
+      font-size: 80px;
+      margin-left: 150px;
+    }
+
+    #intro_2 {
+      margin-left: 200px;
+    }
+
+    #intro_3 {
+      color: #b3d4fc;
+      text-decoration: none;
+      margin: 10px;
+    }
+
+    .box_container {
+      display: flex;
+      flex-direction: row;
+      padding: 50px;
+      margin: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+
+    }
+
+    #box1,#box2,#box3,#box4 {
+      width: 350px;
+      height: 400px; 
+      border: 1px solid blue;
+      padding: 20px;
+      text-align: center;
+      margin: 20px;
       }
-
-     .header_container {
-        display: flex;
-        flex-direction: row;
-        /* position: absolute; */
-        justify-content: space-between;
-        align-items: center;
-        top: 20px;
-        right: 200px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        }
-  
-        #navbar {
-        display: block;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        }
-
-        #navbar:visited {
-          background-color: #111;
-        }
-  
-  
-        
-  
-        .intro {
-          background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
-          background-size: 500px;
-          Color:white;
-          height: 250px;
-          
-          padding: 20px;
-          }
-
-          #intro_1 {
-            font-style: oblique;
-            font-size: 80px;
-            margin-left: 150px;
-          }
-
-          #intro_2 {
-           margin-left: 200px;
-          }
-
-          #intro_3 {
-            color: #b3d4fc;
-            text-decoration: none;
-            margin: 10px;
-         }
-
-         .box_container {
-          display: flex;
-          flex-direction: row;
-          padding: 50px;
-          margin: 30px;
-          flex-wrap: wrap;
-          justify-content: center;
-      
-         }
-
-         #box1,#box2,#box3,#box4 {
-          width: 350px;
-          height: 400px; 
-          border: 1px solid blue;
-          padding: 20px;
-          text-align: center;
-          margin: 20px;
-         }
