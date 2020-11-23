@@ -107,6 +107,7 @@ if (contentWrapperEle) {
 }
 }
 
+<<<<<<< HEAD
 // const initEventListeners = () => {
 // const contentMenu = document.querySelector(`.${CONTENT_MENU_SELECTOR}`);
 
@@ -136,6 +137,37 @@ if (contentWrapperEle) {
 
 // console.log('Event Listener added')
 // }
+=======
+const initEventListeners = () => {
+const contentMenu = document.querySelector(`.${CONTENT_MENU_SELECTOR}`);
+
+if (!contentMenu) {
+    console.log('Element Not found: ', CONTENT_MENU_SELECTOR);
+    return;
+}
+
+const menuSelectorList = [
+    ALL_MENU_SELECTOR, WEB_MENU_SELECTOR,
+    CLOUD_MENU_SELECTOR, DEVOPS_MENU_SELECTOR,
+    CONSULTANCY_MENU_SELECTOR,
+];
+
+menuSelectorList.forEach((selector) => {
+    const menuEle = contentMenu.querySelector(`.${selector}`);
+
+    if (!menuEle) {
+        console.log('Element Not found: ', CONTENT_MENU_SELECTOR);
+        return; 
+    }
+
+    const contentTitle = menuContentTitles[selector] || 'all';
+
+    menuEle.addEventListener('click', () => displayContent(contentTitle));
+});
+
+console.log('Event Listener added')
+}
+>>>>>>> 4e33e18dc16e15b70727daf54c54c78d8971e18d
 
 
 /* window.addEventListener('load', initEventListeners); */
