@@ -139,6 +139,47 @@
     }
 
 
+.footer {
+background-color: #242424;
+text-align: center;
+height: 300px;
+color:white;
+padding-top: 50px;
+margin-top: 40px;
+}
+
+
+
+.footer1 {
+font-size: 250%;
+}
+
+.f_icon {
+width: 15px;
+height: 15px;
+margin: 10px;
+
+}
+
+.f_cont {
+position: absolute;
+left: 75%;
+display: flex;
+align-items: center;
+}
+
+.f_text {
+margin-right: 20px;
+}
+
+.footer2 {
+position: absolute;
+right: 70%;
+margin-bottom: 90%;
+}
+
+
+
 
     
     
