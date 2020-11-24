@@ -44,7 +44,7 @@
 
 <div class="intro">
   <h1 id="intro_1">My Portfolio </h1>
-  <h2 id="intro_2"><a id="intro_3" href="index.html">Home</a> / <a id="intro_3" href="contact.html">Contact</a> </h2> 
+  <h2 id="intro_2"><a id="intro_3" href="index.html">Home</a> / <a id="intro_3" href="portfolio.html">Portfolio</a> </h2> 
 </div>
 
 <div class="port_1">
@@ -55,7 +55,7 @@
     <li><div id="port" class="content-menu__all" onclick="displayContent('all')">All</div></li>
     <li><div id="port" class="content-menu__web" onclick="displayContent('web')">Web Design</div></li>
     <li><div id="port" class="content-menu__cloud">Cloud Native Websites/Apps</div></li>
-    <li><div id="port" class="content-menu__devops">DevOps</div></li>
+    <li><div id="port" class="content-menu__devops" onclick="displayContent('devops')">DevOps</div></li>
     <li><div id="port" class="content-menu__consultancy">Consultancy</div></li>
 </ul>
 
@@ -72,42 +72,8 @@
 <script src="js/portfolio.js"></script>
 
 <script>
-const CONTENT_WRAPPER_SELECTOR = 'content-wrapper';
-const CONTENT_MENU_SELECTOR = 'content-menu';
-const ALL_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__all`;
-const WEB_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__web`;
-const CLOUD_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__cloud`;
-const DEVOPS_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__devops`;
-const CONSULTANCY_MENU_SELECTOR = `${CONTENT_MENU_SELECTOR}__consultancy`;
-const SHOW_SELECTOR = 'show-content';
-const menuContentTitles = {
-[ALL_MENU_SELECTOR]: 'all',
-[WEB_MENU_SELECTOR]: 'web',
-[CLOUD_MENU_SELECTOR]: 'cloud',
-[DEVOPS_MENU_SELECTOR]: 'devops',
-[CONSULTANCY_MENU_SELECTOR]: 'consultancy',
-};
 
-const displayContent = (contentTitle) => {
-const contentWrapperEle = document.querySelector(`#${CONTENT_WRAPPER_SELECTOR}`);
 
-if (contentWrapperEle) {
-    Object.values(menuContentTitles).forEach((title) => {
-        const CONTENT_SELECTOR = `${title}-content`;
-        const content = contentWrapperEle.querySelector(`#${CONTENT_SELECTOR}`);
-
-        if (!content || (title === contentTitle && content.classList.contains(SHOW_SELECTOR))) return;
-        
-        if (title === contentTitle) {
-            content.classList.add(SHOW_SELECTOR);
-        } else {
-            content.classList.remove(SHOW_SELECTOR);
-        }
-    });
-}
-}
-
-<<<<<<< HEAD
 // const initEventListeners = () => {
 // const contentMenu = document.querySelector(`.${CONTENT_MENU_SELECTOR}`);
 
@@ -137,40 +103,29 @@ if (contentWrapperEle) {
 
 // console.log('Event Listener added')
 // }
-=======
-const initEventListeners = () => {
-const contentMenu = document.querySelector(`.${CONTENT_MENU_SELECTOR}`);
-
-if (!contentMenu) {
-    console.log('Element Not found: ', CONTENT_MENU_SELECTOR);
-    return;
-}
-
-const menuSelectorList = [
-    ALL_MENU_SELECTOR, WEB_MENU_SELECTOR,
-    CLOUD_MENU_SELECTOR, DEVOPS_MENU_SELECTOR,
-    CONSULTANCY_MENU_SELECTOR,
-];
-
-menuSelectorList.forEach((selector) => {
-    const menuEle = contentMenu.querySelector(`.${selector}`);
-
-    if (!menuEle) {
-        console.log('Element Not found: ', CONTENT_MENU_SELECTOR);
-        return; 
-    }
-
-    const contentTitle = menuContentTitles[selector] || 'all';
-
-    menuEle.addEventListener('click', () => displayContent(contentTitle));
-});
-
-console.log('Event Listener added')
-}
->>>>>>> 4e33e18dc16e15b70727daf54c54c78d8971e18d
 
 
 /* window.addEventListener('load', initEventListeners); */
 </script>
+
+<!--footer-->
+  
+<div class="footer">
+    <h1>Greybeing</h1>
+    <h1 class="footer1">adulojugbenga@yahoo.com</h1>
+    <p>10, Biodun Aduloju street, Isheri-Lasu Road <br>Alimosho Lagos-Nigeria.</p>
+    <p class="footer2">Copyright ©2020 All Rights Reserved.</p>
+
+  <div class="f_cont">
+    <p class="f_text">Stay connected</p>
+    <a href="https://twitter.com/home"><img class="f_icon" src="https://res.cloudinary.com/greybeing/image/upload/v1606223325/twitter_w333xi.svg"alt="twitter logo"/></a>
+    <a href="https://www.instagram.com/"><img class="f_icon" src="https://res.cloudinary.com/greybeing/image/upload/v1606223315/instagram_1_xkkg2k.svg" alt="instagram logo"/></a>
+    <a href="https://web.facebook.com/"><img class="f_icon" src="https://res.cloudinary.com/greybeing/image/upload/v1606223785/facebook_hxvpls.svg" alt="facebook logo"/></a>
+    <a href="https://greybeing.github.io/greybeing.com"><img class="f_icon" src="https://res.cloudinary.com/greybeing/image/upload/v1606223796/global_s96rbh.svg" alt="website logo"/></a>
+  </div>
+
+  </div>
+
+
 
 </html>
