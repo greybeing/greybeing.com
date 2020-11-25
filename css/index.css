@@ -87,75 +87,75 @@
      Author's custom styles
      ========================================================================== */
 
-     .navbar_container {
-       display: flex;
-     }
-     
-      .header_container {
-        display: flex;
-        flex-direction: row;
-        /* position: absolute; */
-        justify-content: space-between;
-        align-items: center;
-        top: 20px;
-        right: 200px;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        }
-      
+.navbar_container {
+  display: flex;
+}
 
-      #navbar {
-      display: block;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      }
+.header_container {
+  display: flex;
+  flex-direction: row;
+  /* position: absolute; */
+  justify-content: space-between;
+  align-items: center;
+  top: 20px;
+  right: 200px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
 
-      #navbar:visited {
-        background-color: #111;
-      }
 
-      .intro {
-        background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
-        background-size: 500px;
-        Color:white;
-        height: 500px;
-        margin: 0px;
-        padding: 20px;
-        }
+#navbar {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-      #intro_1 {
-        font-style: oblique;
-          font-size: 50px;
-        }
+#navbar:visited {
+  background-color: #111;
+}
 
-      #my_image {
-        width: 400px;
-        height: 400px;
-        border-radius: 100px;
-        position: absolute;
-        right: 40px;
-        top: 120px;
-      }
+.intro {
+  background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
+  background-size: 500px;
+  Color:white;
+  height: 500px;
+  margin: 0px;
+  padding: 20px;
+  }
 
-      .block_container {
-        display: flex;
-        flex-direction: row;
-        margin-top: 50px;
-      }
+#intro_1 {
+  font-style: oblique;
+    font-size: 50px;
+  }
 
-      #blocks {
-       text-decoration: none;
-       margin: 50px;
-       padding: 10px;
-       border-style: outset;
-       border-width: thick;
-       width: 300px;
-       color: #b3d4fc;
-       }
+#my_image {
+  width: 400px;
+  height: 400px;
+  border-radius: 100px;
+  position: absolute;
+  right: 40px;
+  top: 120px;
+}
 
-      
+.block_container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+#blocks {
+  text-decoration: none;
+  margin: 50px;
+  padding: 10px;
+  border-style: outset;
+  border-width: thick;
+  width: 300px;
+  color: #b3d4fc;
+  }
+
+
       
   
   /* ==========================================================================
