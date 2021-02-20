@@ -89,13 +89,28 @@
     display: block;
     }
 
+    #all-content {
+        display: flex;
+        flex-direction: row;
+        }
+    
+    #all-cont {
+        width: 1500px;
+        height: 300px;
+        border: 1px solid blue;
+        
+        
+}
+
 
 .footer {
 background-color: #242424;
 text-align: center;
 height: 300px;
+width: 100%;
 color:white;
 padding-top: 50px;
+position:absolute;
 }
 
 
@@ -112,7 +127,7 @@ margin: 10px;
 }
 
 .f_cont {
-position: absolute;
+position: absolute; 
 left: 75%;
 display: flex;
 align-items: center;
@@ -127,3 +142,4 @@ position: absolute;
 right: 70%;
 margin-bottom: 90%;
 }
+
