@@ -1,0 +1,23 @@
+$bgcolor:#242424;
+$textcolor: white;
+
+
+.footer {
+    background-color: $bgcolor;
+    text-align: center;
+    height: 300px;
+    color: $textcolor;
+    padding-top: 50px;
+    margin-top: 40px;
+}
+.navbar_container {
+    display: flex;
+ h3 {
+     a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+}
+}
