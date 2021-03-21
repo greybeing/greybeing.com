@@ -1,23 +1,109 @@
 $bgcolor:#242424;
-$textcolor: white;
 
-
-.footer {
-    background-color: $bgcolor;
-    text-align: center;
-    height: 300px;
-    color: $textcolor;
-    padding-top: 50px;
-    margin-top: 40px;
+.header_container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+top: 20px;
+right: 200px;
+width: 100%;
+margin: 0;
+padding: 0;
 }
+
 .navbar_container {
-    display: flex;
- h3 {
-     a{
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
+display: flex;
+h3 {
+a:visited{
+    background-color: #111;
+}
+    a{
+display: block;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+}
+}
+
+
+.intro {
+background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
+background-size: 500px;
+Color:white;
+height: 250px;
+padding: 20px;
+}
+
+.intro {
+h1 {
+    font-style: oblique;
+    font-size: 80px;
+    margin-left: 150px;
+}
+h2 {
+    margin-left: 200px;
+a {
+    color: #b3d4fc;
     text-decoration: none;
-    }
+    margin: 10px;
 }
 }
+}
+
+.flex_container2 {
+display: flex;
+flex-direction: row;
+padding: 10px;
+margin: 20px;
+img {
+width: 450px;
+    height: 600px;
+    margin-left: 80px;
+}
+}
+
+#f_c2 {
+padding: 10px;
+margin-left: 100px; 
+h1 {
+font-size: 50px;
+}
+p {
+font-size: 20px;
+}
+}
+
+footer {
+background-color: $bgcolor;
+text-align: center;
+height: 300px;
+color: white;
+padding-top: 50px;
+margin-top: 40px;
+h2 {
+font-size: 250%;
+}
+.foot {
+position: absolute;
+right: 70%;
+margin-bottom: 90%;
+}
+}
+.footer2 {
+position: absolute;
+left: 75%;
+display: flex;
+align-items: center;
+p {
+margin-right: 20px;
+}
+a {
+img {
+width: 15px;
+height: 15px;
+margin: 10px;
+}
+}
+} 
