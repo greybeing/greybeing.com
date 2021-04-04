@@ -1,0 +1,176 @@
+$bgcolor:#242424;
+.header_container {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+top: 20px;
+right: 200px;
+width: 100%;
+margin: 0;
+padding: 0;
+}
+
+.navbar_container {
+    display: flex;
+    h3 {
+        a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+                    }
+        a:hover { color:black}
+    }
+}
+
+.intro {
+    background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
+    background-size: 500px;
+    Color:white;
+    height: 250px;
+    padding: 20px;
+
+h1 {
+    font-style: oblique;
+    font-size: 80px;
+    margin-left: 150px;
+}
+
+h2 {
+    margin-left: 200px;
+    a {color: #b3d4fc;
+        text-decoration: none;
+        margin: 10px;}
+}
+
+
+    }
+
+.cont{
+    text-align: center;
+    margin: 30px;
+
+    img{
+        width: 90%;
+        height: 400px;
+        margin-top: 60px;
+    }
+}            
+
+
+.form {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 85px;
+    
+    input {
+        width: 900px;
+        height: 200px;
+    }
+}
+
+
+#n_e {
+    display: flex;
+    margin-top: 40px;
+    input {
+        width:435px;
+        height: 60px;
+        }
+    
+    #email{
+            margin-left: 19px;
+      }
+}
+
+input {
+    width:434px;
+    height: 60px;
+    margin-top: 40px;
+    
+}
+
+.button {
+    background: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Rufina, serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #0684aa;
+    letter-spacing: 3px;
+    text-align: center;
+    width: 120px;
+    height: 55px;
+    cursor: pointer;
+    color: #0684aa; 
+    margin-top: 40px;
+}
+
+.cont_book {
+    position: absolute;
+    right: 100px;
+    top: 1000px;
+    }
+
+    #cont_icon {
+        position: absolute;
+        right: 250px;
+        width: 30px;
+        height: 30px;
+
+    p {
+        color: gray;
+    }
+    }
+
+#cb {
+margin-top: 60px;
+
+img {
+position: absolute;
+right: 250px;
+width: 30px;
+height: 30px;
+    }
+
+p {
+color: gray;
+}
+}
+
+footer {
+    background-color: $bgcolor;
+    text-align: center;
+    height: 300px;
+    color: white;
+    padding-top: 50px;
+    margin-top: 40px;
+    h2 {
+    font-size: 250%;
+    }
+    .foot {
+    position: absolute;
+    right: 70%;
+    margin-bottom: 90%;
+    }
+    }
+    .footer2 {
+    position: absolute;
+    left: 75%;
+    display: flex;
+    align-items: center;
+    p {
+    margin-right: 20px;
+    }
+    a{
+    img {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    }
+    }
+    } 
+    
+    
