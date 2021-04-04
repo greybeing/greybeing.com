@@ -19,9 +19,9 @@
   padding: 14px 16px;
   text-decoration: none;
 }
-.navbar_container h3 a:hover {
+/* .navbar_container h3 a:hover {
   background-color: black;
-}
+} */
 
 .intro {
   background-image: url(https://res.cloudinary.com/greybeing/image/upload/v1604241854/nordwood-themes-9a58YsGiTPk-unsplash_i9zoz8.jpg);
